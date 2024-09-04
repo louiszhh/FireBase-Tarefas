@@ -6,7 +6,7 @@ const NavBar = ({ onLogout, user }) => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h1>Task Manager</h1>
+        <h1>Sistema de Tarefas</h1>
       </div>
       <div className="navbar-links">
         {user ? (
@@ -15,7 +15,7 @@ const NavBar = ({ onLogout, user }) => {
             <button className="navbar-button" onClick={onLogout}>Logout</button>
           </>
         ) : (
-          <span>Faça login para acessar suas tarefas</span>
+          <span>Faça login ou registro para acessar suas tarefas</span>
         )}
       </div>
     </nav>
