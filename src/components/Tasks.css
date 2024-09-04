@@ -1,0 +1,90 @@
+
+.tasks-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #F7F9F9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tasks-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2C3E50;
+}
+
+.tasks-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #BDC3C7;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.tasks-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1ABC9C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.tasks-container button:hover {
+  background-color: #16A085;
+}
+
+.tasks-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tasks-container li {
+  padding: 10px;
+  border: 1px solid #BDC3C7;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarefa-detalhes {
+  flex-grow: 1;
+}
+
+.tarefa-titulo {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tarefa-descricao {
+  font-size: 16px;
+  color: #7F8C8D;
+}
+
+.tarefa-acoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.tarefa-acoes button {
+  background-color: #E74C3C;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.tarefa-acoes button:first-child {
+  margin-bottom: 5px;
+}
+
+.tarefa-acoes button:hover {
+  background-color: #C0392B;
+}
